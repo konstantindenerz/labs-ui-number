@@ -12,3 +12,8 @@ Initialization:
 ```javascript
 labs.ui.number.init('.number');
 ```
+
+## Dependencies
+
+### Bower
+[bower.json](bower.json)
