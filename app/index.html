@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>labs.numbers - Demo - &copy; konstantin.denerz</title>
+  <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  <script type='text/javascript' src='bower_components/jquery/dist/jquery.min.js'></script>
+  <script type='text/javascript' src='bower_components/jquery-ui/ui/minified/jquery-ui.min.js'></script>
+  <script type='text/javascript' src='scripts/app.js'></script>
+  <script type='text/javascript'>
+    $(function(){
+      $('body').hover(function(){
+          labs.ui.number.init('.number');
+      });
+
+    });
+
+  </script>
+  <style type='text/css'>
+
+    body{
+        font-family: 'Poiret One', cursive;
+        margin:0;
+        padding:50px;
+        background: #353942;
+    }
+    .number{
+      font-size:72px;
+      float:left;
+      margin-right:50px;
+      width:80px;
+      text-align:center;
+      text-shadow:0px 1px 0px rgba(0,0,0,0.6);
+    }
+    .error{
+      color: #e56048;
+    }
+    .info {
+      color: #8ca2ad;
+    }
+    .success{
+      color: #28c8c8;
+    }
+  </style>
+</head>
+<body>
+  <div class='number error' data-value=5>
+    0
+  </div>
+  <div class='number info' data-value=42>
+    0
+  </div>
+  <div class='number success' data-value=80>
+    0
+  </div>
+</body>
+</html>
