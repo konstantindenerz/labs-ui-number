@@ -19,3 +19,8 @@ labs.ui.number.init('.number');
 
 ### Bower
 [bower.json](bower.json)
+
+Install the dependencies:
+```
+bower install
+```
