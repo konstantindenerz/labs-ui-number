@@ -1,5 +1,7 @@
 # labs-number
 
+An initial animation for numbers.
+
 ![foo](numbers.gif)
 
 HTML-Structure:
